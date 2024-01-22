@@ -8,7 +8,7 @@ replace (
 
 	// forked go-yaml that introduces RawYAML interface, which can be used to populate YAML fields using bytes
 	// which are then encoded as a valid YAML blocks with proper indentiation
-	gopkg.in/yaml.v3 => github.com/unix4ever/yaml v0.0.0-20220527175918-f17b0f05cf2c
+	gopkg.in/yaml.v3 => github.com/unix4ever/yaml/v2 v2.4.0
 )
 
 // Kubernetes dependencies sharing the same version.
@@ -46,7 +46,7 @@ require (
 	github.com/coreos/go-iptables v0.7.0
 	github.com/cosi-project/runtime v0.3.20
 	github.com/distribution/reference v0.5.0
-	github.com/docker/docker v24.0.7+incompatible
+	github.com/docker/docker v25.0.0+incompatible
 	github.com/docker/go-connections v0.5.0
 	github.com/dustin/go-humanize v1.0.1
 	github.com/ecks/uefi v0.0.0-20221116212947-caef65d070eb
@@ -67,7 +67,7 @@ require (
 	github.com/google/uuid v1.5.0
 	github.com/gopacket/gopacket v1.2.0
 	github.com/gosuri/uiprogress v0.0.1
-	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
+	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.0.1
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-envparse v0.1.0
 	github.com/hashicorp/go-getter/v2 v2.2.1
@@ -89,8 +89,8 @@ require (
 	github.com/opencontainers/image-spec v1.1.0-rc4
 	github.com/opencontainers/runtime-spec v1.1.0
 	github.com/packethost/packngo v0.31.0
-	github.com/pelletier/go-toml v1.9.5
-	github.com/pin/tftp v2.1.1-0.20200117065540-2f79be2dba4e+incompatible
+	github.com/pelletier/go-toml/v2 v2.1.1
+	github.com/pin/tftp/v3 v3.1.0
 	github.com/pin/tftp/v3 v3.1.0
 	github.com/pmorjan/kmod v1.1.0
 	github.com/prometheus/procfs v0.12.0
